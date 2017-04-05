@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 //弹出自定义dialog
-                CustomDialog dialog = new CustomDialog(mContext);
+                CustomDialog dialog = new CustomDialog(mContext,R.layout.custom_dialog);
                 dialog.show();
             }
         });
